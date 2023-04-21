@@ -133,11 +133,11 @@ const Navbar = () => {
                   Projekte
                 </li>
               </Link>
-              <Link href="/resume">
+              <a target="_blank" rel="noreferrer" href="/resume">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Lebenslauf
                 </li>
-              </Link>
+              </a>
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Kontakt
