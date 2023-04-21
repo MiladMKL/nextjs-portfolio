@@ -63,7 +63,9 @@ const Navbar = () => {
               <Link href="/#projects">Projekte</Link>
             </li>
             <li className="ml-10 text-sm uppercase border-2 border-transparent hover:border-b-2 hover:border-b-[#5651e5]">
-              <Link href="/resume">Lebenslauf</Link>
+              <a target="_blank" rel="noreferrer" href="/resume">
+                Lebenslauf
+              </a>
             </li>
             <li className="ml-10 text-sm uppercase border-2 border-transparent hover:border-b-2 hover:border-b-[#5651e5]">
               <Link href="/#contact">Kontakt</Link>
