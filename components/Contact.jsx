@@ -59,7 +59,7 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">Milad Miyakheel</h2>
-                <p>Front-End Developer</p>
+                <p>Web Developer</p>
                 <p className="py-4">
                   Ich bin für Vollzeit- oder Teilzeitstellen verfügbar. Schreibe
                   mir einfach eine Nachricht.
@@ -69,7 +69,7 @@ const Contact = () => {
                 <p className="uppercase pt-8 text-[#5651e5]">Meine Links</p>
                 <div className="flex items-center justify-between py-4">
                   <a
-                    href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                    href="https://www.linkedin.com/in/milad-miyakheel/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -78,7 +78,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href="https://github.com/fireclint"
+                    href="https://github.com/MiladMKL"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -90,11 +90,11 @@ const Contact = () => {
                   <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                     <GrMail size={20} />
                   </div>
-                  <Link href="/resume">
+                  <a target="_blank" rel="noreferrer" href="/resume">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                       <BsFillPersonVcardFill size={20} />
                     </div>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

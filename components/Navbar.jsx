@@ -173,14 +173,14 @@ const Navbar = () => {
                     <GrMail />
                   </div>
                 </Link>
-                <Link href="/resume">
+                <a target="_blank" rel="noreferrer" href="/resume">
                   <div
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   >
                     <BsFillPersonVcardFill />
                   </div>
-                </Link>
+                </a>
               </div>
             </div>
           </div>

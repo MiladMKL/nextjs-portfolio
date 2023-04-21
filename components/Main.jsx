@@ -45,11 +45,11 @@ const Main = () => {
                 <GrMail size={20} />
               </div>
             </Link>
-            <Link href="/resume">
+            <a target="_blank" rel="noreferrer" href="/resume">
               <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonVcardFill size={20} />
               </div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
